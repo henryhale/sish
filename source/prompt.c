@@ -5,7 +5,7 @@
 #include <string.h>
 
 /* ANSI color codes */
-#define RED "\033[0;31m"
+#define RED "\033[1;31m"
 #define GREEN "\033[0;32m"
 #define WHITE "\033[0;37m"
 #define MAGENTA "\033[0;35m"
