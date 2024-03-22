@@ -7,7 +7,7 @@ void init_shell(int argc, char *argv[], struct shell_state *const state) {
   if (argc > 1 && argv[1] != NULL) {
     state->name = argv[1];
   } else {
-    state->name = "sish";
+    state->name = SHELL_NAME;
   }
 }
 

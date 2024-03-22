@@ -1,6 +1,9 @@
 #ifndef SHELL_H
 #define SHELL_H
 
+/* shell name */
+#define SHELL_NAME "sish"
+
 /* maximum input size - 1kb */
 #define MAX_INPUT 1024
 
@@ -18,5 +21,7 @@ void clean_up(struct shell_state *const state);
 char *prompt(char *const name);
 
 void tokenize(char *const input, char *args[], const char delimiters[]);
+
+void exec_command(char *args[], char *const name);
 
 #endif
