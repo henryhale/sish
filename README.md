@@ -28,7 +28,7 @@ To getting started with `sish` make sure you have the  following installed on yo
    mkdir simple_shell
    cd simple_shell
    git clone https://github.com/henryhale/sish.git
-   make clean && make
+   make
    ```
 
 2. **(Optional) Global Installation**
